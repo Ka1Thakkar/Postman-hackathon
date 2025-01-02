@@ -11,7 +11,7 @@ export default function LoginPage() {
       <div className="flex justify-center w-[66vw]">
         <div className="flex flex-col justify-center">
           <form>
-            <div className="flex flex-col bg-hiveoffwhite w-[33vw] h-[70vh] ">
+            <div className="flex flex-col bg-hiveoffwhite w-[33vw] h-[70vh] rounded-xl">
               <div className="text-4xl font-polyamine text-center my-20">Login</div>
               <div className="flex justify-center">
                 <div className="w-[540px] flex justify-center">
