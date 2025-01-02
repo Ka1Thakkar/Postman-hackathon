@@ -15,6 +15,7 @@ export default {
 			hivegreen: '#038175',
 			hivewhite: '#F0EFDD',
 			hiveoffwhite: '#D9D7BF',
+			hivegoldenyellow: "#FFE3B3",
 
   		},
   		borderRadius: {
@@ -25,6 +26,9 @@ export default {
 		fontFamily:{
 			poppins: ['var(--font-poppins)'],
 			polyamine: ['var(--font-polyamine)']
+		},
+		backgroundImage:{
+			'background-texture': "url('../public/bg_overlay.png')",
 		}
   	}
   },

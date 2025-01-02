@@ -2,7 +2,7 @@
 import Link from "next/link"
 export default function Navbar() {
   return (
-    <div className="flex justify-between h-[10vh] items-center ">
+    <div className="flex justify-between h-[10vh] items-center w-[100%]">
         <div className="flex justify-around">
             <div className="text-2xl font-polyamine mx-[4vw]">HIVECARE</div>
         </div>

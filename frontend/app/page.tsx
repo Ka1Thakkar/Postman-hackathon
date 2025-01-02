@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Marketing from "@/components/Marketing";
 import Navbar from "@/components/Navbar";
 import PreNavbar from "@/components/PreNavbar";
@@ -8,6 +9,7 @@ export default function Home() {
     <PreNavbar/>
     <Navbar/>
     <Marketing/>
+    <Footer/>
     </>
   );
 }
