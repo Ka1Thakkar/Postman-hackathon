@@ -14,7 +14,7 @@ export default function Navbar() {
         </div>
         <div className="flex justify-around w-[10vw] font-poppins">
             <div >Sign Up</div>
-            <div className="text-white bg-hivegreen rounded-xl px-4 font-poppins">Login</div>
+            <div className="text-white bg-hivegreen rounded-xl px-4 font-poppins"><Link href="/login">Login</Link></div>
         </div>
       
     </div>
