@@ -1,9 +1,14 @@
 import Link from "next/link"
+import Image from "next/image"
 export default function Navbar() {
   return (
     <div className="flex justify-between h-[10vh] items-center w-[100%]">
       <div className="flex justify-around">
-        <div className="text-2xl font-polyamine mx-[4vw]">HIVECARE</div>
+        <div className="text-2xl font-polyamine mx-[2vw]">
+          <div className="flex">
+            <Image src={"Group 1.svg"} alt={"Company logo"} height={40} width={40} /> <div className="text-center m-auto">HIVECARE</div>
+          </div>
+        </div>
       </div>
       <div className="flex justify-around w-[40vw]">
         <Link href="#" className="font-poppins">
