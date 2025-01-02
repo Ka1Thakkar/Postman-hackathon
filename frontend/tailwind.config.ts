@@ -30,6 +30,7 @@ export default {
 		backgroundImage:{
 			'background-texture': "url('../public/bg_overlay.png')",
 			'login':"url('../public/image 3.png')",
+			'signup':"url('../public/image 4.png')",
 		}
   	}
   },
